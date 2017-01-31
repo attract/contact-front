@@ -18,4 +18,6 @@ RUN yum install -y \
 
 RUN npm install -g bower && npm install -g gulp
 
+EXPOSE 80
+
 CMD ["/var/www/project/docker/run.sh"]
